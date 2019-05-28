@@ -5,10 +5,12 @@ gem 'sinatra'
 gem 'thin'
 gem 'require_all'
 
-
+#not included during actual deployment
 group :development do
 	gem 'shotgun'
 	gem 'pry'
+  gem 'tux'
+  gem 'sqlite3'
 end
     
 group :test do
